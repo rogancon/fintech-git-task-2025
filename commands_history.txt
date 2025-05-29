@@ -1,0 +1,16 @@
+ 1012  ls
+ 1013  ls
+ 1014  pwd
+ 1015  ls
+ 1016  cd ..
+ 1017  ls
+ 1018  open MyProject
+ 1019  cd MyProject
+ 1020  touch file1.txt\n
+ 1021  git add file1.txt\ngit commit -m "Добавляет приветственный файл с текстом"\n
+ 1022  git commit --amend -m "Добавлен файл с приветствием и кратким описанием проекта"\n
+ 1023  git remote add origin git@github.com:rogancon/fintech-git-task-2025.git\n
+ 1024  git push -u origin main\n
+ 1025  git add file1.txt\ngit commit -m "Дополнил файл1 подробным описанием проекта"\ngit push\n
+ 1026  git checkout -b develop 
+ 1027  touch file2.txt
